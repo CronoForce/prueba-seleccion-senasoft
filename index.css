@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+body{
+    background-color: #f5f6fa;
+}
+body section{
+    position: relative;
+}
+body nav{
+    position: relative;
+    z-index: 2;
+}
+body .hero{
+    width: 100%; 
+}
+nav .logo{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 140px;
+    bottom: 0;
+}
+nav h1{
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+nav .menu{
+    position: absolute;
+    top: 40px;
+    left: 1160px;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+}
+.contenedor h2{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+}
+body .botones .free{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    margin: 0 auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(141, 192, 201);
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    border: 0px solid white;
+    border-radius: 3%;
+    background-color: white;
+    transition: all 300ms;
+}
+body .botones .learn{
+    position: absolute;
+    top: 400px;
+    left: 360px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 3%;
+}
+body .botones .free:hover{
+    background-color: rgb(141, 192, 201);
+    color: white;
+    border: none;
+}
+.intermedio{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.intermedio h2{
+    color: #353b48;
+    position: absolute;
+    top: 85px;
+    bottom: 85px;
+    left: 610px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.intermedio img{
+    width: 35px;
+    position: absolute;
+    top: 80px;
+    bottom: 85px;
+    left: 570px;
+    margin: 0 auto;
+
+}
+.intermedio2{
+    position: relative;
+}
+.intro{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0 auto;
+}
+.intermedio2 div.container{
+    width: 100%;
+    height: 338.078px;
+    position: absolute;
+    top: 200px;
+    margin: 0 auto;
+    background-color: rgb(61, 97, 129);
+}
+.html{
+    width: 60px;
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    margin: 0 auto;
+}
+.detalle{
+    width: 40%;
+    position: absolute;
+    top: 80px;
+    left: 800px;
+    margin: 0 auto;
+    color: white;
+}
+.detalle h2{
+    font-weight: normal;
+}
+.detalle h3{
+    color: rgb(141, 192, 201);
+    font-weight: normal;
+    font-size: 15px;
+}
+.intermedio3{
+    position: relative;
+    top: 575px;
+}
+.feacture{
+    position: relative;
+}
+.feacture1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin: 0 auto;
+}
+.detalle-f{
+    position: absolute;
+    top: 50px;
+    left: 170px;
+    width: 25%;
+    color: #353b48;
+}
+.detalle-f p{
+    color: #bdc3c7;
+}
+.feacture2{
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    margin: 0 auto;
+}
+.detalle-f2{
+    position: absolute;
+    top: 50px;
+    left: 590px;
+    width: 25%;
+    color: #353b48;
+}
+.detalle-f2 p{
+    color: #bdc3c7;
+}
+.feacture3{
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    margin: 0 auto;
+}
+.detalle-f3{
+    position: absolute;
+    top: 50px;
+    left: 1010px;
+    width: 25%;
+    color: #353b48;
+}
+.detalle-f3 p{
+    color: #bdc3c7;
+}
+.detalle-f3 .buy{
+    color: rgb(125, 224, 241);
+}
+.feacture a{
+    text-decoration: none;
+    transition: all 300ms;
+    color: #353b48;
+}
+.feacture a:hover{
+    color: rgb(112, 177, 235);
+}
+.intermedio4{
+    position: relative;
+    top: 871px;
+}
+.model img{
+    width: 100%;
+}
+.model .iphone{
+    width: 300px;
+    position: absolute;
+    top: 38px;
+    left: 200px;
+}
+.model .fondo{
+    width: 211px;
+    position: absolute;
+    top: 132px;
+    left: 245px;
+}
+.detalle-s{
+    position: absolute;
+    top: 68px;
+    left: 601px;
+    width: 50%;
+}
+.detalle-s h3{
+    color: white;
+    font-weight: normal;
+}
+.detalle-s p{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%
+}
+.detalle-s .person{
+    width:50px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+.detalle-s .det-person{
+    position: absolute;
+    top: 155px;
+    left: 90px;
+    width: 90%;
+    font-style: oblique;
+}
+.detalle-s .logo-p{
+    width: 60px;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+}
+.detalle-s .download{
+    position: absolute;
+    top: 320px;
+    left: 0;
+    text-decoration: none;
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 3%; 
+    transition: all 300ms;   
+}
+.detalle-s .download:hover{
+    color: rgb(141, 192, 201);
+    border: 2px solid rgb(141, 192, 201);
+    border-radius: 3%; 
+}
+.intermedio5{
+    position: relative;
+    top: 1000px;
+}
+.intermedio5 .detalle-p{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+.intermedio5 h2{
+    color: #2c3e50;
+}
+.intermedio5 p{
+    color: #95a5a6;
+}
+.intermedio5 a{
+    color: rgb(141, 192, 201);
+    text-decoration: none;
+}
+.galeria{
+    position: relative;
+    top: 1250px;
+}
+.galeria div{
+    display: inline-block;
+    overflow: hidden;
+    width: 300px;
+}
+.galeria img{
+ width: 300px;
+}
+.intermedio6{
+    position: relative;
+    top: 1250px;
+}
+.intermedio6 .see{
+    background-color: rgb(61, 97, 129);
+    width: 100%;
+    height: 300px;
+}
+.intermedio6 .see h1{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    font-size: 50px;
+    font-weight: normal;
+}
+.intermedio6 .see a{
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 300ms;
+}
+.intermedio6 .see a:hover{
+    color: rgb(141, 192, 201);
+    border: 2px solid rgb(141, 192, 201);
+    border-radius: 3%; 
+}
+footer{
+    position: relative;
+    top: 1250px;
+    width: 100%;
+    height: 300px;
+}
+footer img{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(61, 97, 129);
+    margin-left: 50px; 
+    position: relative;
+    top: 150px;
+    left: 600px;
+}
+footer .copyR1{
+    color: #95a5a6;
+    font-size: 10px;
+    position: absolute;
+    top: 202px;
+    left: 100px;
+}
+footer .copyR2{
+    color: rgb(141, 192, 201);
+    font-size: 10px;
+    position: absolute;
+    top: 202px;
+    left: 304px;
+    font-style: oblique;
+}
