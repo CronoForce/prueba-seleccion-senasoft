@@ -326,12 +326,51 @@ body .botones .free:hover{
     top: 1250px;
 }
 .galeria div{
-    display: inline-block;
+    width: 333px;
+    height: 201px;
     overflow: hidden;
-    width: 300px;
+    display: inline-block;
+    margin: 0;
 }
-.galeria img{
- width: 300px;
+.galeria .imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s;
+    z-index: -1;
+}
+.galeria .item{
+    position: relative;
+    overflow: hidden;
+}
+.galeria .mascara{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0);
+    transition: .5s;
+}
+.galeria .mascara img{
+    width: 50px;
+    transform: scale(0);
+    opacity: 0;
+    transition-duration: .5s;
+}
+.galeria .item:hover .mascara{
+    background:rgb(61, 97, 129, .7);
+}
+.galeria .item:hover .mascara img{
+    opacity: 1;
+    transform: scale(1);
+}
+.galeria .item:hover .imagen{
+    transform:scale(1.1);
 }
 .intermedio6{
     position: relative;
